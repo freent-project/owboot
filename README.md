@@ -1,6 +1,7 @@
 # owboot
 
-The bootloader used by the OpenWindows operating system.
+The bootloader used by the OpenWindows operating system. Compatible with both classic and
+UEFI systems.
 
 ## How does it work?
 
@@ -17,7 +18,8 @@ graph TD;
 
 First, the BIOS loads up, and executes the owboot binary (or EFI file).
 Then, owboot thinks there is **no BIOS** and creates a virtual one.
-It then inserts the selected boot image into memory, and boots
+It then inserts the selected boot image (a piece of C or Assembly code, which FreeNT
+handles using `kernel_owboot_handler.c`) into memory, and boots
 the virtual BIOS.
 
 After a reboot or power off, the virtual BIOS disappears, and the next time the system
