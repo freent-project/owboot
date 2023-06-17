@@ -7,8 +7,8 @@ The bootloader used by the OpenWindows operating system.
 ```mermaid
 graph TD;
     BIOS[BIOS real]-->Efi[UEFI support, if available];
-    BIOS-->owboot;
-    EFI-->owbootefi[owboot for EFI systems];
+    BIOS-->owboot[owboot binary];
+    Efi-->owbootefi[owbootx64.efi];
     owboot-->C[BIOS dummy];
     owbootefi-->C[BIOS dummy];
     C-->FreeNT;
