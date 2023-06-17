@@ -1,2 +1,2 @@
 # owboot
-Bootloader compatible with OpenWindows FreeNT (BIOS and UEFI)
+The bootloader used by the OpenWindows operating system.
