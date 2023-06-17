@@ -1,3 +1,12 @@
+/*
+  Note for freent developers:
+  This software is licensed under the MIT license to ease compatibility  with
+  proprietary operating systems. There are no plans to relicense it under the
+  OpenWindows License.
+*/
+
+-----------------------------
+
 MIT License
 
 Copyright (c) 2023 FreeNT Project
@@ -19,10 +28,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-
-Note for freent developers:
-This softwsre is licensed under the MIT license to ease compatibility  with
-proprietary operating systems. There are no plans to relicense it under the
-OpenWindows License.
